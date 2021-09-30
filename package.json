@@ -1,0 +1,29 @@
+{
+  "name": "webpack5_modulefederation",
+  "version": "1.0.0",
+  "description": "webpack5 模块联邦",
+  "main": "index.js",
+  "workspaces": {
+    "packages": [
+      "app1",
+      "app2"
+    ]
+  },
+  "scripts": {
+    "start": "lerna run --parallel start",
+    "build": "lerna run build"
+  },
+  "devDependencies": {
+    "lerna": "^4.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luoguoxiong/webpack5_ModuleFederation.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/luoguoxiong/webpack5_ModuleFederation/issues"
+  },
+  "homepage": "https://github.com/luoguoxiong/webpack5_ModuleFederation#readme"
+}
